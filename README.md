@@ -82,11 +82,10 @@ http://127.0.0.1:8000/api/books/
 
 | Method | Endpoint | Description |
 |--------|-----------|-------------|
-| GET | `/api/books/` | List all books |
-| POST | `/api/books/` | Add a new book |
-| GET | `/api/books/{id}/` | Retrieve a single book |
-| PUT | `/api/books/{id}/` | Update a book |
-| DELETE | `/api/books/{id}/` | Delete a book |
+| GET | `/api/books/book` | List all books |
+| POST | `/api/books/book/add` | Add a new book |
+| PUT | `/api/books/{id}/change/` | Update a book |
+| DELETE | `/api/books/{id}/change/` | Delete a book |
 
 ---
 ### Outputs of the Project
@@ -111,7 +110,7 @@ http://127.0.0.1:8000/api/books/
 ![backup](https://github.com/Chaithanya013/Python_Demo_Project-BookSerializer/blob/5d2081be1dfb974d52c52c537b268ef159631820/outputs_screenshots/adding_book.png)
 
 
-5. Retrieve a Single Book
+5. Update a Single Book
 
 ![backup](https://github.com/Chaithanya013/Python_Demo_Project-BookSerializer/blob/5d2081be1dfb974d52c52c537b268ef159631820/outputs_screenshots/Retrieve_a_single_%20book.png)
 
