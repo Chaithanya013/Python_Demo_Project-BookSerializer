@@ -89,10 +89,36 @@ http://127.0.0.1:8000/api/books/
 | DELETE | `/api/books/{id}/` | Delete a book |
 
 ---
-### Outputs 
+### Outputs of the Project
 
 1. Run Server
 
+![backup](https://github.com/Chaithanya013/Python_Demo_Project-BookSerializer/blob/5d2081be1dfb974d52c52c537b268ef159631820/outputs_screenshots/run_server.png)
+
+
+2. Admin Page
+
+![backup](https://github.com/Chaithanya013/Python_Demo_Project-BookSerializer/blob/5d2081be1dfb974d52c52c537b268ef159631820/outputs_screenshots/admin_page.png)
+
+
+3. List All Books
+
+![backup](https://github.com/Chaithanya013/Python_Demo_Project-BookSerializer/blob/5d2081be1dfb974d52c52c537b268ef159631820/outputs_screenshots/list_of_books.png)
+
+
+4. Add a New Book
+
+![backup](https://github.com/Chaithanya013/Python_Demo_Project-BookSerializer/blob/5d2081be1dfb974d52c52c537b268ef159631820/outputs_screenshots/adding_book.png)
+
+
+5. Retrieve a Single Book
+
+![backup](https://github.com/Chaithanya013/Python_Demo_Project-BookSerializer/blob/5d2081be1dfb974d52c52c537b268ef159631820/outputs_screenshots/Retrieve_a_single_%20book.png)
+
+
+6. Delete a Selected Book
+
+![backup](https://github.com/Chaithanya013/Python_Demo_Project-BookSerializer/blob/5d2081be1dfb974d52c52c537b268ef159631820/outputs_screenshots/delete_selected_books.png)
 
 ---
 ### 🧠 Example JSON Data
