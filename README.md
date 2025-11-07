@@ -89,7 +89,12 @@ http://127.0.0.1:8000/api/books/
 | DELETE | `/api/books/{id}/` | Delete a book |
 
 ---
+### Outputs 
 
+1. Run Server
+
+
+---
 ### 🧠 Example JSON Data
 
 ```json
