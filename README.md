@@ -1,21 +1,21 @@
-## 📘 BookSerializer API
+## BookSerializer API
 
 A simple and clean **Django REST Framework (DRF)** project that demonstrates how to build, serialize, and expose a RESTful API for managing books.  
 It allows you to **create, view, update, and delete** book records easily through an API endpoint.
 
 ---
 
-### 🚀 Features
+### Features
 
-- 📚 CRUD operations for books (Create, Read, Update, Delete)  
-- ⚙️ Built with **Django** and **Django REST Framework**  
-- 🔄 JSON-based API responses  
-- 🧩 Admin panel for managing books visually  
-- 💡 Beginner-friendly and easy to extend  
+-  CRUD operations for books (Create, Read, Update, Delete)  
+-  Built with **Django** and **Django REST Framework**  
+-  JSON-based API responses  
+-  Admin panel for managing books visually  
+-  Beginner-friendly and easy to extend  
 
 ---
 
-### 🏗️ Project Structure
+### Project Structure
 
 ```
 BookSerializer/
@@ -36,13 +36,13 @@ BookSerializer/
 
 ### ⚙️ Installation Guide
 
-#### 1️⃣ Clone the repository
+#### 1️. Clone the repository
 ```bash
 git clone https://github.com/Chaithanya013/Book-Serializer-Project.git
 cd BookSerializerAPI
 ```
 
-#### 2️⃣ Create and activate a virtual environment
+#### 2️. Create and activate a virtual environment
 ```bash
 python -m venv venv
 venv\Scripts\activate   # for Windows
@@ -50,23 +50,23 @@ venv\Scripts\activate   # for Windows
 source venv/bin/activate   # for Mac/Linux
 ```
 
-#### 3️⃣ Install dependencies
+#### 3️. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 4️⃣ Run migrations
+#### 4️. Run migrations
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-#### 5️⃣ Create an admin user
+#### 5️. Create an admin user
 ```bash
 python manage.py createsuperuser
 ```
 
-#### 6️⃣ Start the server
+#### 6️. Start the server
 ```bash
 python manage.py runserver
 ```
@@ -78,7 +78,7 @@ http://127.0.0.1:8000/api/books/
 
 ---
 
-### 🌐 API Endpoints
+### API Endpoints
 
 | Method | Endpoint | Description |
 |--------|-----------|-------------|
@@ -120,7 +120,7 @@ http://127.0.0.1:8000/api/books/
 ![backup](https://github.com/Chaithanya013/Python_Demo_Project-BookSerializer/blob/5d2081be1dfb974d52c52c537b268ef159631820/outputs_screenshots/delete_selected_books.png)
 
 ---
-### 🧠 Example JSON Data
+### Example JSON Data
 
 ```json
 {
@@ -134,14 +134,14 @@ http://127.0.0.1:8000/api/books/
 
 ### 🧾 Technologies Used
 
-- Python 🐍  
-- Django 🌐  
-- Django REST Framework ⚙️  
-- SQLite 🗃️  
+- Python 
+- Django   
+- Django REST Framework 
+- SQLite 
 
 ---
 
-### 🧑‍💻 Developer
+### Developer
 
 **Name:** Venuthurla Siva Chaithanya  
 **Email:**  chaithanyav.0203@gmail.com
@@ -149,16 +149,10 @@ http://127.0.0.1:8000/api/books/
 
 ---
 
-### 💬 Feedback
-
-If you found this project helpful, please ⭐ star the repository and share your thoughts!
-
----
-
-### 🏁 Admin Panel Access
+### Admin Panel Access
 Once the server is running, access the admin panel at:
 
-👉 [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
+[http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 
 Login using your superuser credentials to add or edit books visually.
 
